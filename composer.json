@@ -1,0 +1,24 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=7.0",
+		"codeigniter/framework": "3.1.*",
+		"cocur/background-process": "^0.7.0",
+		"google/recaptcha": "^1.2",
+		"fzaninotto/faker": "^1.8",
+		"chriskacerguis/codeigniter-restserver": "^3.0",
+                "lonnieezell/codeigniter-forensics": "dev-master",
+		"illuminate/database": "^5.8",
+		"illuminate/events": "^5.8",
+		"unitpay/php-sdk":"dev-master"
+	},
+	"require-dev": {
+		"kenjis/ci-phpunit-test": "^0.16.1",
+		"kenjis/codeigniter-cli": "^0.1.0"
+	},
+	"autoload": {
+    		"classmap": [
+       			"application/models"
+    		]
+	}
+}

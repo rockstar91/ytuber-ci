@@ -1,0 +1,1 @@
+User <b>#<?=$id;?></b> send for you <b><?=$this->input->post('sum');?></b> coins.

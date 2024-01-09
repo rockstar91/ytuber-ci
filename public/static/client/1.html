@@ -1,0 +1,15 @@
+<body>
+<script>
+// Если about:blank или что-то в этом духе
+var hrefLength = 0;
+try{
+	if (location.href.length) {
+		hrefLength = 1;
+	}
+}
+catch(e){
+	//alert("error 3");
+}
+document.write(hrefLength);
+</script>
+</body>
